@@ -10,6 +10,10 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dimiss="alert"></button>
+        
+        refresh your browser</div>
     <div class="container-md pt-2 bg-dark text-white border-black"> <!--pt mean:top padding,my mean:margin,bg mean:background(color),--> <!--sl,md,lg,.. for changing the div width with screen resizing-->
         <h1>My First <mark> Bootstrap</mark> Page</h1>
         <p>This part is inside a .container class.</p>
@@ -19,8 +23,14 @@
         <dl> <!--direction list-->
             <dt>water</dt>
             <dd>-liquid of life</dd>
+        </div>
+        <div class="alert alert-success alert-link alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dimiss="alert"></button>
         </dl>
-    </div>
+   
+        
+        
+        <a href=""> refresh </a>your browser</div>
     <div class="row bg-primary">
         <div class="col-sm-3 border"> <button type="submit">first</button> </div>
         <div class="col-md-2 border"><kbd>second</kbd></div>
@@ -28,7 +38,7 @@
         <div class="col-xl-5 border">fourth</div>
         <div class="col border">fifth</div>
     </div>
-    <div class="container-md text-black-5 table-responsive">
+    <div class="container-md text-black-5 table-responsive"> <!--responsive table-->
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla tempora nam qui accusamus consequatur quia iusto facilis, neque laborum facere ab explicabo quod debitis quaerat, ea unde, adipisci impedit. Optio!</p>
        
         <table class="table  table-hover table-bordered">
@@ -77,6 +87,32 @@
         <img src="./download1.jpeg" class="rounded  img-fluid" alt="nature1">
         <img src="./download.jpeg" class="rounded-circle float-end" alt="nature2">
     </div>
+
     
+    <div class=" container-md d-grid gap-1">
+        <button type="button" class="btn btn-outline-primary btn-block">Full-Width Button</button>
+        <button type="button" class="btn btn-outline-primary btn-block">Full-Width Button</button>
+        <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+        <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+        <button type="button" class="btn btn-primary btn-block" disabled>Full-Width Button
+            <span class="spinner-grow spiner-grow-sm"></span>
+        </button>
+        <a href="###" class="btn btn-danger disabled">Full-Width Button disabled</a>
+    </div>    
+    <div class="container-md btn-group btn-group-sm">
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+
+    </div><br><br>
+    <div class=" btn-group-vertical btn-group-sm">
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+        <button type="button" class="btn btn-primary ">Full-Width Button</button>
+
+    </div>
+
 </body>
 </html>
